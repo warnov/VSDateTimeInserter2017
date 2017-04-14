@@ -1,13 +1,13 @@
 # VSDateTimeInserter2017
 This is a VSPackage Extension containing a menu command that will insert the current date &amp; time in the caret position inside the code editor for Visual Studio 2017
 
-##Useful Links:
-###For Visual Studio 2013 and 2015:
+## Useful Links:
+### For Visual Studio 2013 and 2015:
  - [Github Repo](https://github.com/warnov/VSDateTimeInserter)
  - [Visual Studio Gallery](http://warnovcom/@VSDateTimeInserter)
 
 
-###For Visual Studio 2017:
+### For Visual Studio 2017:
  - [Github Repo](https://github.com/warnov/VSDateTimeInserter2017)
  - [Visual Studio Gallery](http://warnovcom/@VSDateTimeInserter2017)
 
