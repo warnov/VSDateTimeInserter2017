@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="VSDateTimeInserter.warnov.9f41520c-53ec-4de5-9ba8-8380e112f86a" Version="1.0" Language="en-US" Publisher="warnov" />
+		<DisplayName>VSDateTimeInserter</DisplayName>
+		<Description xml:space="preserve">This is a simple Tool menu command that inserts the Date and Time in the Code Editor at the caret position. It has been available since VS2013, and now is present in VS2017</Description>
+		<MoreInfo>http://warnov.com/@VSDateTimeInserterPost</MoreInfo>
+		<GettingStartedGuide>http://warnov.com/@VSDateTimeInserterPost</GettingStartedGuide>
+		<ReleaseNotes>http://warnov.com/@VSDateTimeInserterPost</ReleaseNotes>
+		<Icon>datetime.png</Icon>
+		<Tags>Datetime, date, time, menu command</Tags>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+		<Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
+	</Dependencies>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+	</Prerequisites>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+	</Assets>
+</PackageManifest>
