@@ -4,11 +4,11 @@ This is a VSPackage Extension containing a menu command that will insert the cur
 ## Useful Links:
 ### For Visual Studio 2013 and 2015:
  - [Github Repo](https://github.com/warnov/VSDateTimeInserter)
- - [Visual Studio Gallery](http://warnovcom/@VSDateTimeInserter)
+ - [Visual Studio Gallery](http://warnov.com/@VSDateTimeInserter)
 
 
 ### For Visual Studio 2017:
  - [Github Repo](https://github.com/warnov/VSDateTimeInserter2017)
- - [Visual Studio Gallery](http://warnovcom/@VSDateTimeInserter2017)
+ - [Visual Studio Gallery](http://warnov.com/@VSDateTimeInserter2017)
 
 Technical  documentation and guidance: In my [blog](http://warnov.com/@VSDateTimeInserterPost)
